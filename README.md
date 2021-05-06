@@ -9,3 +9,4 @@ It can export to Steam, Windows, Linux, MacOS, iOS, android, HTML, facebook and 
 The best thing is Defold is fully open-source.
 
 (I didn't have to advertise Defold, I just love it so much)
+I don't know why it says this is made in Go the programming language and I can't remove it.
