@@ -1,0 +1,21 @@
+function init(self)
+	-- positions
+	-- player1
+	local pos1 = vmath.vector3(1250, 507, 0)
+	-- player2 
+	local pos2 = vmath.vector3(1500, 507, 0)
+	-- player3 
+	local pos3 = vmath.vector3(1750, 507, 0)
+	-- player4
+	local pos4 = vmath.vector3(2000, 507, 0)
+	
+	-- spawnings
+	-- Player 1
+	collectionfactory.create("#Player1", pos1)
+	-- Player 2
+	collectionfactory.create("#Player2", pos2)
+	-- Player 3
+	collectionfactory.create("#Player3", pos3)
+	-- Player 4
+	collectionfactory.create("#Player4", pos4)
+end

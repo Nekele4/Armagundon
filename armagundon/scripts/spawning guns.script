@@ -1,0 +1,9 @@
+function init(self)
+	local x1 = math.random(800, 2400)
+	local y1 = math.random(500, 1000)
+	local pos = vmath.vector3(x1, y1, 1)
+	-- Spawn a planet at the computed random position
+	factory.create("#factory", pos, nil, {}, 1)	
+			-- Echo to the console the id, x and y position of each planet as it's created
+	print("Spawning Gun " .. self.id .. "  x1: " .. tostring(x1) .. "  y1: " .. tostring(y1))
+end
